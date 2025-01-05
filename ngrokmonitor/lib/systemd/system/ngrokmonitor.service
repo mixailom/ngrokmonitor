@@ -1,0 +1,12 @@
+[Unit]
+Description=Ngrok Monitoring Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/ngrokmonitor
+Restart=always
+User=ngrokmonitor
+Group=ngrokmonitor
+
+[Install]
+WantedBy=multi-user.target

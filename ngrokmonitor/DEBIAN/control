@@ -1,0 +1,8 @@
+Package: myapp
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: armhf
+Maintainer: Mihailo Marinkovic <mixailom@gmail.com>
+Description: Application that monitors local ngrok tunnel and notifies if public address has changed
+

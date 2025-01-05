@@ -1,0 +1,15 @@
+[package]
+name = "ngrokmonitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+reqwest = { version = "0.12.9", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+lettre = { version = "0.11.6", features = ["builder", "smtp-transport"] }
+serde_json = "1.0"
+rust-ini = "0.21"
+log = "0.4"
+env_logger = "0.10"
