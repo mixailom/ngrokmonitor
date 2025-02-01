@@ -1,6 +1,6 @@
 # Installation from distributed .deb package
 Download ngrokmonitor from github repo
-`wget https://github.com/mixailom/ngrokmonitor/releases/download/0.0.1/ngrokmonitor.deb`
+`wget https://github.com/mixailom/ngrokmonitor/releases/download/0.0.2/ngrokmonitor.deb`
 
 Install app and service:
 
@@ -37,9 +37,9 @@ unzip master.zip
 
 ## 3. Download OpenSSL Source
 ```console
-wget https://www.openssl.org/source/openssl-1.1.1w.tar.gz
-tar -xvf openssl-1.1.1w.tar.gz
-cd openssl-1.1.1w
+wget https://codeload.github.com/openssl/openssl/zip/refs/tags/openssl-3.0.2
+unzip openssl-openssl-3.0.2.zip
+cd openssl-openssl-3.0.2
 ```
 
 ## 4. Configure OpenSSL for ARM
